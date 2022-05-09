@@ -56,11 +56,7 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
-                const ListTile(
-                  leading: Icon(Icons.album),
-                  title: Text('The Enchanted Nightingale'),
-                  subtitle: Text('Music by Julie Gable. Lyrics by Sidney Stein.'),
-                ),
+                const ListTile(),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: <Widget>[
