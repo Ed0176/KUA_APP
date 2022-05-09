@@ -85,10 +85,7 @@ class _HomePageState extends State<HomePage> {
                   width: 160.0,
                   color: Colors.grey,
                 ),
-                Container(
-                  width: 160.0,
-                  color: Colors.grey,
-                ),
+                Container(width: 160.0, color: Colors.grey, child: GestureDetector(onTap: () {})),
                 Container(
                   width: 160.0,
                   color: Colors.grey,
