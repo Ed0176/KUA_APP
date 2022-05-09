@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
                   fontFamily: 'SourceSansPro',
                   fontSize: 25.0,
                   fontWeight: FontWeight.bold,
-                  letterSpacing: 2.0,
+                  letterSpacing: 1.0,
                   color: Colors.orange,
                 ),
                 textAlign: TextAlign.left,
