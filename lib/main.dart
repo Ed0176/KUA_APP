@@ -22,7 +22,7 @@ class _LoginState extends State<Login> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            "WELCOME BACK",
+            "Welcome Back",
             style: TextStyle(
               fontFamily: 'WaterBrush',
               fontSize: 20.0,
