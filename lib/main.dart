@@ -50,13 +50,6 @@ class _LoginState extends State<Login> {
               textAlign: TextAlign.left,
             ),
           ),
-          SizedBox(
-            width: 150.0,
-            child: Divider(
-              color: Colors.teal.shade100,
-              thickness: 1.0,
-            ),
-          ),
           Padding(
             padding: EdgeInsets.all(10.0),
             child: TextField(
