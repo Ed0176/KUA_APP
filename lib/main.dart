@@ -122,7 +122,7 @@ class _LoginState extends State<Login> {
                 onPressed: () {},
                 child: const Text(
                   'REGISTER',
-                  style: TextStyle(fontSize: 12, color: Colors.amber),
+                  style: TextStyle(fontSize: 12, color: Colors.orange),
                 ),
               ),
             ]),
