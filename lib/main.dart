@@ -100,7 +100,7 @@ class _LoginState extends State<Login> {
             minWidth: 350.0,
             height: 50.0,
             child: RaisedButton(
-              color: Colors.amber,
+              color: Colors.orange[600],
               textColor: Colors.white,
               shape: new RoundedRectangleBorder(
                 borderRadius: new BorderRadius.circular(3.0),
