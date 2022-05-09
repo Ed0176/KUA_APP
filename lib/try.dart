@@ -29,6 +29,26 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(
+            height: 5.0,
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "Continue Watching",
+                style: TextStyle(
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.bold,
+                  //letterSpacing: 1.0,
+                  color: Colors.orange,
+                ),
+                textAlign: TextAlign.left,
+              ),
+            ),
+          ),
           Container(
             margin: const EdgeInsets.symmetric(vertical: 20.0),
             height: 200.0,
