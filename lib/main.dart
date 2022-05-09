@@ -90,6 +90,8 @@ class _LoginState extends State<Login> {
               style: TextStyle(color: Colors.white),
               obscureText: true,
               decoration: InputDecoration(
+                fillColor: Colors.grey[900],
+                filled: true,
                 prefixIcon: Icon(
                   Icons.password,
                   color: Colors.amber,
