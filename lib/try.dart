@@ -9,12 +9,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     const title = 'Horizontal List';
 
-    void _onItemTapped(int index) {
-      setState(() {
-        _selectedIndex = index;
-      });
-    }
-
     return MaterialApp(
       title: title,
       home: Scaffold(
