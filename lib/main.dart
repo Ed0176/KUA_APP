@@ -21,44 +21,56 @@ class _LoginState extends State<Login> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
-            "WELCOME BACK",
-            style: TextStyle(
-              fontFamily: 'WaterBrush',
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "Welcome Back",
+                style: TextStyle(
+                  fontFamily: 'WaterBrush',
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 5.0,
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "LOGIN",
+                style: TextStyle(
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 2.0,
+                  color: Colors.orange,
+                ),
+                textAlign: TextAlign.left,
+              ),
             ),
           ),
           SizedBox(
             height: 20.0,
           ),
-          Text(
-            "LOGIN",
-            style: TextStyle(
-              fontFamily: 'SourceSansPro',
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.amber,
-            ),
-          ),
-          SizedBox(
-            width: 150.0,
-            child: Divider(
-              color: Colors.teal.shade100,
-              thickness: 1.0,
-            ),
-          ),
           Padding(
-            padding: EdgeInsets.all(10.0),
+            padding: EdgeInsets.all(0.0),
             child: TextField(
               obscureText: false,
+              style: TextStyle(color: Colors.white),
               decoration: InputDecoration(
+                fillColor: Colors.grey[900],
+                filled: true,
                 hintStyle: TextStyle(color: Colors.white),
-                prefixIcon: Icon(Icons.account_circle, color: Colors.amber),
+                prefixIcon: Icon(Icons.account_circle, color: Colors.orange),
                 enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.white, width: 2.0),
+                  borderSide: BorderSide(color: Colors.black, width: 2.0),
                 ),
                 focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.amber, width: 2.0)),
                 border: OutlineInputBorder(),
@@ -69,18 +81,23 @@ class _LoginState extends State<Login> {
               ),
             ),
           ),
+          SizedBox(
+            height: 8.0,
+          ),
           Padding(
-            padding: EdgeInsets.all(10.0),
+            padding: EdgeInsets.all(0.0),
             child: TextField(
-              style: TextStyle(color: Colors.red),
+              style: TextStyle(color: Colors.white),
               obscureText: true,
               decoration: InputDecoration(
+                fillColor: Colors.grey[900],
+                filled: true,
                 prefixIcon: Icon(
                   Icons.password,
-                  color: Colors.amber,
+                  color: Colors.orange,
                 ),
                 enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.white, width: 2.0),
+                  borderSide: BorderSide(color: Colors.black, width: 2.0),
                 ),
                 focusedBorder: OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.amber, width: 2.0),
@@ -100,7 +117,7 @@ class _LoginState extends State<Login> {
             minWidth: 350.0,
             height: 50.0,
             child: RaisedButton(
-              color: Colors.amber,
+              color: Colors.orange,
               textColor: Colors.white,
               shape: new RoundedRectangleBorder(
                 borderRadius: new BorderRadius.circular(3.0),
@@ -122,7 +139,7 @@ class _LoginState extends State<Login> {
                 onPressed: () {},
                 child: const Text(
                   'REGISTER',
-                  style: TextStyle(fontSize: 12, color: Colors.amber),
+                  style: TextStyle(fontSize: 12, color: Colors.orange),
                 ),
               ),
             ]),
