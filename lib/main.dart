@@ -65,7 +65,7 @@ class _LoginState extends State<Login> {
               obscureText: false,
               style: TextStyle(color: Colors.white),
               decoration: InputDecoration(
-                fillColor: Colors.grey,
+                fillColor: Colors.grey[800],
                 filled: true,
                 hintStyle: TextStyle(color: Colors.white),
                 prefixIcon: Icon(Icons.account_circle, color: Colors.amber),
