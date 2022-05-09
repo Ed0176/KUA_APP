@@ -93,7 +93,7 @@ class _LoginState extends State<Login> {
                 fillColor: Colors.grey[900],
                 filled: true,
                 prefixIcon: Icon(
-                  Icons.key_sharp,
+                  Icons.password,
                   color: Colors.orange,
                 ),
                 enabledBorder: OutlineInputBorder(
