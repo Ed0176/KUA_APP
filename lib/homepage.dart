@@ -221,10 +221,10 @@ class _HomePageState extends State<HomePage> {
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.school,
+                Icons.account_circle,
                 color: Colors.orange,
               ),
-              label: 'School',
+              label: 'Profile',
             ),
           ],
           currentIndex: _selectedIndex,
