@@ -198,11 +198,17 @@ class MyApp extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Icon(
+                Icons.home,
+                color: Colors.orange,
+              ),
               label: 'Home',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.business),
+              icon: Icon(
+                Icons.business,
+                color: Colors.orange,
+              ),
               label: 'Business',
             ),
             BottomNavigationBarItem(
