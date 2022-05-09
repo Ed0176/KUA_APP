@@ -52,16 +52,15 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          Row(children: [
-            Card(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  const ListTile(),
-                ],
-              ),
+          Row(),
+          Card(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
+                const ListTile(),
+              ],
             ),
-          ]),
+          ),
           SizedBox(
             height: 20.0,
           ),
