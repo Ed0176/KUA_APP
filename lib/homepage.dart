@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class _HomePageState extends State<HomePage> {
     return MaterialApp(
         home: Scaffold(
       backgroundColor: Colors.black,
-      body: Row(
+      body: Column(
         children: [
           SizedBox(
             height: 10.0,
@@ -52,15 +53,6 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          Row(children: [
-            Expanded(
-              child: ListView(children: [
-                ListTile(),
-              ]),
-            ),
-            //Card(),
-            // Card(),
-          ]),
           Card(
             child: Column(
               mainAxisSize: MainAxisSize.min,
