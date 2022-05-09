@@ -31,22 +31,22 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 width: 160.0,
-                color: Colors.blue,
+                color: Colors.grey,
               ),
               SizedBox(
                 width: 10.0,
               ),
               Container(
                 width: 160.0,
-                color: Colors.green,
+                color: Colors.grey,
               ),
               Container(
                 width: 160.0,
-                color: Colors.yellow,
+                color: Colors.grey,
               ),
               Container(
                 width: 160.0,
-                color: Colors.orange,
+                color: Colors.grey,
               ),
             ],
           ),
