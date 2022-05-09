@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
             child: Align(
               alignment: Alignment.topLeft,
               child: Text(
-                "Welcome Back",
+                "Hello",
                 style: TextStyle(
                   fontFamily: 'WaterBrush',
                   fontSize: 22.0,
