@@ -9,6 +9,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold());
+    return MaterialApp(
+        home: Scaffold(
+      backgroundColor: Colors.black,
+    ));
   }
 }
