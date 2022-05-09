@@ -20,6 +20,15 @@ class MyApp extends StatelessWidget {
             // This next line does the trick.
             scrollDirection: Axis.horizontal,
             children: <Widget>[
+              Text(
+                "Welcome Back",
+                style: TextStyle(
+                  fontFamily: 'WaterBrush',
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
               Container(
                 width: 160.0,
                 color: Colors.grey,
