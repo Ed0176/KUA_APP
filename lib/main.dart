@@ -70,7 +70,7 @@ class _LoginState extends State<Login> {
                 hintStyle: TextStyle(color: Colors.white),
                 prefixIcon: Icon(Icons.account_circle, color: Colors.amber),
                 enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.white, width: 2.0),
+                  borderSide: BorderSide(color: Colors.black, width: 2.0),
                 ),
                 focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.amber, width: 2.0)),
                 border: OutlineInputBorder(),
