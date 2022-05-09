@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: title,
       home: Scaffold(
         backgroundColor: Colors.black,
-        body: Column(children: [
+        body: ListView(children: [
           SizedBox(
             height: 5.0,
           ),
