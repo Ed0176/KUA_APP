@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               Container(
                 width: 160.0,
-                color: Colors.red,
+                color: Colors.grey,
               ),
               SizedBox(
                 width: 10.0,
