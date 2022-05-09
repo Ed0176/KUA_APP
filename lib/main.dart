@@ -63,6 +63,7 @@ class _LoginState extends State<Login> {
             padding: EdgeInsets.all(0.0),
             child: TextField(
               obscureText: false,
+              style: TextStyle(color: Colors.white),
               decoration: InputDecoration(
                 hintStyle: TextStyle(color: Colors.white),
                 prefixIcon: Icon(Icons.account_circle, color: Colors.amber),
