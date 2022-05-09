@@ -59,6 +59,7 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 const ListTile(leading: Icon(Icons.train)),
                 const ListTile(leading: Icon(Icons.flight)),
+                const ListTile(leading: Icon(Icons.flight)),
               ],
             ),
           ),
