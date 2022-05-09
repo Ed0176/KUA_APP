@@ -78,6 +78,9 @@ class _LoginState extends State<Login> {
               ),
             ),
           ),
+          SizedBox(
+            height: 8.0,
+          ),
           Padding(
             padding: EdgeInsets.all(0.0),
             child: TextField(
