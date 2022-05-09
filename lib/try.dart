@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               children: <Widget>[
                 Container(
-                  width: 160.0,
+                  width: 150.0,
                   color: Colors.grey,
                 ),
                 SizedBox(
