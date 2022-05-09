@@ -53,9 +53,10 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Row(children: [
-            Card(
-              mainAxisSize: MainAxisSize.min,
-            ),
+            ListView(children: [
+              ListTile(),
+            ]),
+            Card(),
             Card(),
           ]),
           Card(
