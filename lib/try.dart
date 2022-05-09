@@ -22,7 +22,11 @@ class MyApp extends StatelessWidget {
             // This next line does the trick.
             scrollDirection: Axis.horizontal,
             children: <Widget>[
-              ListTile(),
+              Container(
+                width: 160.0,
+                color: Colors.red,
+              ),
+              Divider(),
               Container(
                 width: 160.0,
                 color: Colors.blue,
