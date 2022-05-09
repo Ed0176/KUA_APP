@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Card(
-            child: Column(
+            child: Row(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 const ListTile(leading: Icon(Icons.train)),
