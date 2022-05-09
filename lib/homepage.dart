@@ -56,8 +56,8 @@ class _HomePageState extends State<HomePage> {
             ListView(children: [
               ListTile(),
             ]),
-            Card(),
-            Card(),
+            //Card(),
+            // Card(),
           ]),
           Card(
             child: Column(
