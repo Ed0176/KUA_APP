@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
                 "Continue Watching",
                 style: TextStyle(
                   fontFamily: 'SourceSansPro',
-                  fontSize: 25.0,
+                  fontSize: 10.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 1.0,
                   color: Colors.orange,
