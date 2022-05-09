@@ -214,10 +214,10 @@ class _HomePageState extends State<HomePage> {
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.business,
+                Icons.search,
                 color: Colors.orange,
               ),
-              label: 'Business',
+              label: 'Search',
             ),
             BottomNavigationBarItem(
               icon: Icon(
