@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: title,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text(title),
-        ),
+        backgroundColor: Colors.black,
         body: Container(
           margin: const EdgeInsets.symmetric(vertical: 20.0),
           height: 200.0,
