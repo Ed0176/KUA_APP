@@ -206,7 +206,10 @@ class MyApp extends StatelessWidget {
               label: 'Business',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.school),
+              icon: Icon(
+                Icons.school,
+                color: Colors.orange,
+              ),
               label: 'School',
             ),
           ],
