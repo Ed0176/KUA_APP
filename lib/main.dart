@@ -47,7 +47,7 @@ class _LoginState extends State<Login> {
                 "LOGIN",
                 style: TextStyle(
                   fontFamily: 'SourceSansPro',
-                  fontSize: 20.0,
+                  fontSize: 25.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.0,
                   color: Colors.orange,
