@@ -22,7 +22,7 @@ class _LoginState extends State<Login> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Align(
-            alignment: Alignment.topRight,
+            alignment: Alignment.topLeft,
             child: Text(
               "Welcome Back",
               style: TextStyle(
