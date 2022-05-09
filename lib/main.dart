@@ -79,7 +79,7 @@ class _LoginState extends State<Login> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.all(10.0),
+            padding: EdgeInsets.all(0.0),
             child: TextField(
               style: TextStyle(color: Colors.red),
               obscureText: true,
