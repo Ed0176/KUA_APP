@@ -35,9 +35,6 @@ class _HomePageState extends State<HomePage> {
           SizedBox(
             height: 5.0,
           ),
-          Row(children: [
-            Text('Hi'),
-          ]),
           Padding(
             padding: EdgeInsets.all(8.0),
             child: Align(
@@ -55,7 +52,16 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          Row(),
+          Row(children: [
+            Card(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  const ListTile(),
+                ],
+              ),
+            ),
+          ]),
           Card(
             child: Column(
               mainAxisSize: MainAxisSize.min,
