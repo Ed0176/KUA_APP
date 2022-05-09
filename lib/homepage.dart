@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 const ListTile(leading: Icon(Icons.train)),
-                const ListTile(),
+                const ListTile(leading: Icon(Icons.flight)),
               ],
             ),
           ),
