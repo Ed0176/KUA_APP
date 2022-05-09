@@ -42,7 +42,7 @@ class _LoginState extends State<Login> {
               letterSpacing: 2.0,
               color: Colors.orange,
             ),
-            textAlign: TextAlign.center,
+            textAlign: TextAlign.left,
           ),
           SizedBox(
             width: 150.0,
