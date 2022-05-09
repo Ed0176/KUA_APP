@@ -53,9 +53,11 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Row(children: [
-            ListView(children: [
-              ListTile(),
-            ]),
+            Expanded(
+              child: ListView(children: [
+                ListTile(),
+              ]),
+            ),
             //Card(),
             // Card(),
           ]),
