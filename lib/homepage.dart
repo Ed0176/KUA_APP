@@ -70,24 +70,6 @@ class _HomePageState extends State<HomePage> {
           SizedBox(
             height: 20,
           ),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 90.0, vertical: 20.0),
-            child: Row(children: [
-              Text("Not Registered?", style: TextStyle(color: Colors.white)),
-              TextButton(
-                style: TextButton.styleFrom(
-                  padding: const EdgeInsets.all(8.0),
-                  primary: Colors.white,
-                  textStyle: const TextStyle(fontSize: 12, color: Colors.amber),
-                ),
-                onPressed: () {},
-                child: const Text(
-                  'REGISTER',
-                  style: TextStyle(fontSize: 12, color: Colors.orange),
-                ),
-              ),
-            ]),
-          ),
         ],
       ),
     ));
