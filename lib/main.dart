@@ -64,7 +64,7 @@ class _LoginState extends State<Login> {
             child: TextField(
               obscureText: false,
               decoration: InputDecoration(
-                hintStyle: TextStyle(color: Colors.grey),
+                hintStyle: TextStyle(color: Colors.red),
                 prefixIcon: Icon(Icons.account_circle, color: Colors.amber),
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.white, width: 2.0),
