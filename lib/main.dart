@@ -33,15 +33,6 @@ class _LoginState extends State<Login> {
               ),
             ),
           ),
-          Text(
-            "Welcome Back",
-            style: TextStyle(
-              fontFamily: 'WaterBrush',
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
           SizedBox(
             height: 20.0,
           ),
