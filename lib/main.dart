@@ -50,17 +50,6 @@ class _LoginState extends State<Login> {
               textAlign: TextAlign.left,
             ),
           ),
-          Text(
-            "LOGIN",
-            style: TextStyle(
-              fontFamily: 'SourceSansPro',
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.orange,
-            ),
-            textAlign: TextAlign.left,
-          ),
           SizedBox(
             width: 150.0,
             child: Divider(
