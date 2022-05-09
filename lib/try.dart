@@ -14,6 +14,21 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         body: Column(children: [
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "Hello",
+                style: TextStyle(
+                  fontFamily: 'WaterBrush',
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ),
           Container(
             margin: const EdgeInsets.symmetric(vertical: 20.0),
             height: 200.0,
