@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
         home: Scaffold(
       backgroundColor: Colors.black,
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        //mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
             padding: EdgeInsets.all(8.0),
