@@ -60,7 +60,7 @@ class _LoginState extends State<Login> {
             height: 20.0,
           ),
           Padding(
-            padding: EdgeInsets.all(10.0),
+            padding: EdgeInsets.all(0.0),
             child: TextField(
               obscureText: false,
               decoration: InputDecoration(
