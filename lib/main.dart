@@ -40,7 +40,7 @@ class _LoginState extends State<Login> {
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
               letterSpacing: 2.0,
-              color: Colors.orange[700],
+              color: Colors.orange[600],
             ),
           ),
           SizedBox(
