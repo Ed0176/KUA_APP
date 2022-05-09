@@ -70,19 +70,6 @@ class _HomePageState extends State<HomePage> {
           SizedBox(
             height: 20,
           ),
-          ButtonTheme(
-            minWidth: 350.0,
-            height: 50.0,
-            child: RaisedButton(
-              color: Colors.orange,
-              textColor: Colors.white,
-              shape: new RoundedRectangleBorder(
-                borderRadius: new BorderRadius.circular(3.0),
-              ),
-              onPressed: () {},
-              child: Text('Login'),
-            ),
-          ),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 90.0, vertical: 20.0),
             child: Row(children: [
