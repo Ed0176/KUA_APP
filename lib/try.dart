@@ -141,6 +141,59 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "Instructors",
+                style: TextStyle(
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.bold,
+                  //letterSpacing: 1.0,
+                  color: Colors.orange,
+                ),
+                textAlign: TextAlign.left,
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.symmetric(vertical: 20.0),
+            height: 200.0,
+            child: ListView(
+              // This next line does the trick.
+              scrollDirection: Axis.horizontal,
+              children: <Widget>[
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                SizedBox(
+                  width: 10.0,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                SizedBox(
+                  width: 10.0,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+              ],
+            ),
+          )
         ]),
       ),
     );
