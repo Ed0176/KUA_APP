@@ -53,20 +53,6 @@ class _LoginState extends State<Login> {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment.topLeft,
-            child: Text(
-              "LOGIN",
-              style: TextStyle(
-                fontFamily: 'SourceSansPro',
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 2.0,
-                color: Colors.orange,
-              ),
-              textAlign: TextAlign.left,
-            ),
-          ),
           SizedBox(
             height: 20.0,
           ),
