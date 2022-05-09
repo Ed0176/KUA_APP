@@ -52,7 +52,10 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          Row(children: []),
+          Row(children: [
+            Card(),
+            Card(),
+          ]),
           Card(
             child: Column(
               mainAxisSize: MainAxisSize.min,
