@@ -13,42 +13,44 @@ class MyApp extends StatelessWidget {
       title: title,
       home: Scaffold(
         backgroundColor: Colors.black,
-        body: Container(
-          margin: const EdgeInsets.symmetric(vertical: 20.0),
-          height: 200.0,
-          child: ListView(
-            // This next line does the trick.
-            scrollDirection: Axis.horizontal,
-            children: <Widget>[
-              Container(
-                width: 160.0,
-                color: Colors.grey,
-              ),
-              SizedBox(
-                width: 10.0,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.grey,
-              ),
-              SizedBox(
-                width: 10.0,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.grey,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.grey,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.grey,
-              ),
-            ],
+        body: Column(children: [
+          Container(
+            margin: const EdgeInsets.symmetric(vertical: 20.0),
+            height: 200.0,
+            child: ListView(
+              // This next line does the trick.
+              scrollDirection: Axis.horizontal,
+              children: <Widget>[
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                SizedBox(
+                  width: 10.0,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                SizedBox(
+                  width: 10.0,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+                Container(
+                  width: 160.0,
+                  color: Colors.grey,
+                ),
+              ],
+            ),
           ),
-        ),
+        ]),
       ),
     );
   }
