@@ -88,6 +88,23 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "Popular Classes",
+                style: TextStyle(
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.bold,
+                  //letterSpacing: 1.0,
+                  color: Colors.orange,
+                ),
+                textAlign: TextAlign.left,
+              ),
+            ),
+          ),
         ]),
       ),
     );
