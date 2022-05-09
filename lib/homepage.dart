@@ -64,28 +64,6 @@ class _HomePageState extends State<HomePage> {
           SizedBox(
             height: 20.0,
           ),
-          Padding(
-            padding: EdgeInsets.all(0.0),
-            child: TextField(
-              obscureText: false,
-              style: TextStyle(color: Colors.white),
-              decoration: InputDecoration(
-                fillColor: Colors.grey[900],
-                filled: true,
-                hintStyle: TextStyle(color: Colors.white),
-                prefixIcon: Icon(Icons.account_circle, color: Colors.orange),
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.black, width: 2.0),
-                ),
-                focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.amber, width: 2.0)),
-                border: OutlineInputBorder(),
-                labelText: 'Username or phonenumber',
-                labelStyle: TextStyle(
-                  color: Colors.white,
-                ),
-              ),
-            ),
-          ),
           SizedBox(
             height: 8.0,
           ),
