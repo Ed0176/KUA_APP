@@ -6,7 +6,7 @@ import 'dart:math';
 import 'homepage.dart';
 
 void main() {
-  runApp(Try());
+  runApp(MyApp());
 }
 
 class Login extends StatefulWidget {
