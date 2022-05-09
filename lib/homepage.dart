@@ -14,6 +14,9 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.black,
       body: Column(
         children: [
+          SizedBox(
+            height: 5.0,
+          ),
           Padding(
             padding: EdgeInsets.all(8.0),
             child: Align(
