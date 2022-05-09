@@ -13,7 +13,6 @@ class _HomePageState extends State<HomePage> {
         home: Scaffold(
       backgroundColor: Colors.black,
       body: Column(
-        //mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -38,7 +37,7 @@ class _HomePageState extends State<HomePage> {
             child: Align(
               alignment: Alignment.topLeft,
               child: Text(
-                "LOGIN",
+                "Continue Watching",
                 style: TextStyle(
                   fontFamily: 'SourceSansPro',
                   fontSize: 25.0,
