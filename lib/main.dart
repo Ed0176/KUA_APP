@@ -21,15 +21,18 @@ class _LoginState extends State<Login> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Align(
-            alignment: Alignment.topLeft,
-            child: Text(
-              "Welcome Back",
-              style: TextStyle(
-                fontFamily: 'WaterBrush',
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "Welcome Back",
+                style: TextStyle(
+                  fontFamily: 'WaterBrush',
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
               ),
             ),
           ),
