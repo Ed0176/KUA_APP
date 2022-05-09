@@ -67,32 +67,6 @@ class _HomePageState extends State<HomePage> {
           SizedBox(
             height: 8.0,
           ),
-          Padding(
-            padding: EdgeInsets.all(0.0),
-            child: TextField(
-              style: TextStyle(color: Colors.white),
-              obscureText: true,
-              decoration: InputDecoration(
-                fillColor: Colors.grey[900],
-                filled: true,
-                prefixIcon: Icon(
-                  Icons.password,
-                  color: Colors.orange,
-                ),
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.black, width: 2.0),
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.amber, width: 2.0),
-                ),
-                border: OutlineInputBorder(),
-                labelText: 'Password',
-                labelStyle: TextStyle(
-                  color: Colors.white,
-                ),
-              ),
-            ),
-          ),
           SizedBox(
             height: 20,
           ),
