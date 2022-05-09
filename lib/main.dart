@@ -50,6 +50,9 @@ class _LoginState extends State<Login> {
               textAlign: TextAlign.left,
             ),
           ),
+          SizedBox(
+            height: 20.0,
+          ),
           Padding(
             padding: EdgeInsets.all(10.0),
             child: TextField(
