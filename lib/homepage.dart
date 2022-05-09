@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
     return MaterialApp(
         home: Scaffold(
       backgroundColor: Colors.black,
-      body: Row(
+      body: Column(
         children: [
           SizedBox(
             height: 10.0,
