@@ -29,7 +29,7 @@ class _LoginState extends State<Login> {
                 "Welcome Back",
                 style: TextStyle(
                   fontFamily: 'WaterBrush',
-                  fontSize: 20.0,
+                  fontSize: 22.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
