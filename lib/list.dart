@@ -13,7 +13,7 @@ class _ListState extends State<List> {
       home: Scaffold(
           body: ListView(children: [
         buildCard(),
-        SizedBox(width: 10.0),
+        SizedBox(width: 100.0),
         buildCard(),
         SizedBox(width: 100.0),
         buildCard(),
