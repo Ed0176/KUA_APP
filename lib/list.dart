@@ -11,7 +11,7 @@ class _ListState extends State<List> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          body: Row(children: [
+          body: ListView(children: [
         buildCard(),
         SizedBox(width: 10.0),
         buildCard(),
