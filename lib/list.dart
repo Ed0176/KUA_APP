@@ -15,7 +15,7 @@ class _ListState extends State<List> {
         buildCard(),
         SizedBox(width: 10.0),
         buildCard(),
-        SizedBox(width: 10.0),
+        SizedBox(width: 100.0),
         buildCard(),
         SizedBox(width: 10.0),
         buildCard(),
