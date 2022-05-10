@@ -222,7 +222,7 @@ class _HomePageState extends State<HomePage> {
             ),
             BottomNavigationBarItem(
               activeIcon: Icon(
-                Icons.home,
+                Icons.search,
                 color: Colors.orange,
               ),
               icon: Icon(
@@ -233,7 +233,7 @@ class _HomePageState extends State<HomePage> {
             ),
             BottomNavigationBarItem(
               activeIcon: Icon(
-                Icons.home,
+                Icons.account_circle,
                 color: Colors.orange,
               ),
               icon: Icon(
