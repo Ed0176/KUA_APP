@@ -11,7 +11,7 @@ class _ListState extends State<List> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          body: ListView(children: [
+          body: ListView(scrollDirection: Axis.horizontal, children: [
         buildCard(),
         SizedBox(width: 100.0),
         buildCard(),
