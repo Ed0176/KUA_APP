@@ -71,8 +71,8 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   width: 10.0,
                 ),
-                Container(
-                  width: 160.0,
+                Card(
+                  //width: 160.0,
                   color: Colors.grey,
                   child: Image.asset('images/flower.jpg', height: 200.0),
                 ),
