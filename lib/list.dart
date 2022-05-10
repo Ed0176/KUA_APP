@@ -9,19 +9,21 @@ class List extends StatefulWidget {
 class _ListState extends State<List> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 10.0,
-      child: Scaffold(
-          body: ListView(scrollDirection: Axis.horizontal, children: [
-        buildCard(),
-        SizedBox(width: 100.0),
-        buildCard(),
-        SizedBox(width: 100.0),
-        buildCard(),
-        SizedBox(width: 10.0),
-        buildCard(),
-        SizedBox(width: 10.0),
-      ])),
+    return MaterialApp(
+      home: Container(
+        height: 10.0,
+        child: Scaffold(
+            body: ListView(scrollDirection: Axis.horizontal, children: [
+          buildCard(),
+          SizedBox(width: 100.0),
+          buildCard(),
+          SizedBox(width: 100.0),
+          buildCard(),
+          SizedBox(width: 10.0),
+          buildCard(),
+          SizedBox(width: 10.0),
+        ])),
+      ),
     );
   }
 
