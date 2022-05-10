@@ -74,26 +74,11 @@ class _HomePageState extends State<HomePage> {
                   width: 10.0,
                 ),
                 Card(
-                  child: Container(
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        fit: BoxFit.cover, //I assumed you want to occupy the entire space of the card
-                        image: AssetImage(
-                          'images/flower',
-                        ),
+                  //width: 160.0,
+                  color: Colors.grey,
+                  child: ListTile(title: Text('Diamond'), subtitle: Text('Music ')
+                      //backgroundImage: Image.asset('images/flower.jpg', height: 100.0, width: 160),
                       ),
-                    ),
-                    child: ListTile(
-                      leading: Text(
-                        'Testing the ListTile',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                      title: Text(
-                        'Testing again!',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
-                  ),
                 ),
                 SizedBox(
                   width: 10.0,
