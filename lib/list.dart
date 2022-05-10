@@ -10,19 +10,20 @@ class _ListState extends State<List> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Container(
-        height: 10.0,
-        child: Scaffold(
-            body: ListView(scrollDirection: Axis.horizontal, children: [
-          buildCard(),
-          SizedBox(width: 100.0),
-          buildCard(),
-          SizedBox(width: 100.0),
-          buildCard(),
-          SizedBox(width: 10.0),
-          buildCard(),
-          SizedBox(width: 10.0),
-        ])),
+      home: Scaffold(
+        body: Container(
+          height: 10.0,
+          child: ListView(scrollDirection: Axis.horizontal, children: [
+            buildCard(),
+            SizedBox(width: 100.0),
+            buildCard(),
+            SizedBox(width: 100.0),
+            buildCard(),
+            SizedBox(width: 10.0),
+            buildCard(),
+            SizedBox(width: 10.0),
+          ]),
+        ),
       ),
     );
   }
