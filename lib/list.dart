@@ -13,6 +13,7 @@ class _ListState extends State<List> {
       home: Scaffold(
         body: Container(
           height: 200.0,
+          width: 150.0,
           child: ListView(scrollDirection: Axis.horizontal, children: [
             buildCard(),
             SizedBox(width: 100.0),
