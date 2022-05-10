@@ -12,7 +12,7 @@ class _ListState extends State<List> {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          height: 100.0,
+          height: 200.0,
           child: ListView(scrollDirection: Axis.horizontal, children: [
             buildCard(),
             SizedBox(width: 100.0),
