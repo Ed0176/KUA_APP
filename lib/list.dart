@@ -24,5 +24,5 @@ class _ListState extends State<List> {
     );
   }
 
-  Widget buildCard() => Container(width: 200.0, height: 200.0, color: Colors.red);
+  Widget buildCard() => Container(width: 100.0, height: 100.0, color: Colors.red);
 }
