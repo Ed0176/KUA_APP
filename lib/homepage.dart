@@ -202,21 +202,21 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.home,
-                color: Colors.orange,
+                color: Colors.black,
               ),
               label: 'Home',
             ),
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.search,
-                color: Colors.orange,
+                color: Colors.black,
               ),
               label: 'Search',
             ),
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.account_circle,
-                color: Colors.orange,
+                color: Colors.black,
               ),
               label: 'Profile',
             ),
