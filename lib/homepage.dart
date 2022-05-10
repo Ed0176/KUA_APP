@@ -67,10 +67,7 @@ class _HomePageState extends State<HomePage> {
               // This next line does the trick.
               scrollDirection: Axis.horizontal,
               children: <Widget>[
-                Container(
-                  width: 150.0,
-                  color: Colors.grey,
-                ),
+                Container(width: 150.0, color: Colors.grey, child: GestureDetector(onTap: () {})),
                 SizedBox(
                   width: 10.0,
                 ),
@@ -85,10 +82,7 @@ class _HomePageState extends State<HomePage> {
                   width: 160.0,
                   color: Colors.grey,
                 ),
-                Container(
-                  width: 160.0,
-                  color: Colors.grey,
-                ),
+                Container(width: 160.0, color: Colors.grey, child: GestureDetector(onTap: () {})),
                 Container(
                   width: 160.0,
                   color: Colors.grey,
