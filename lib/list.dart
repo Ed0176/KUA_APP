@@ -9,17 +9,19 @@ class List extends StatefulWidget {
 class _ListState extends State<List> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Row(children: [
-      buildCard(),
-      SizedBox(width: 10.0),
-      buildCard(),
-      SizedBox(width: 10.0),
-      buildCard(),
-      SizedBox(width: 10.0),
-      buildCard(),
-      SizedBox(width: 10.0),
-    ]));
+    return MaterialApp(
+      home: Scaffold(
+          body: Row(children: [
+        buildCard(),
+        SizedBox(width: 10.0),
+        buildCard(),
+        SizedBox(width: 10.0),
+        buildCard(),
+        SizedBox(width: 10.0),
+        buildCard(),
+        SizedBox(width: 10.0),
+      ])),
+    );
   }
 
   Widget buildCard() => Container(width: 200.0, height: 200.0, color: Colors.red);
