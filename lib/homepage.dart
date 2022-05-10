@@ -210,6 +210,10 @@ class _HomePageState extends State<HomePage> {
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
+              activeIcon: Icon(
+                Icons.home,
+                color: Colors.orange,
+              ),
               icon: Icon(
                 Icons.home,
                 color: Colors.black,
