@@ -209,7 +209,7 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.search,
-                color: Colors.orange,
+                color: Colors.black,
               ),
               label: 'Search',
             ),
@@ -222,7 +222,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
           currentIndex: _selectedIndex,
-          selectedItemColor: Colors.orange,
+          selectedItemColor: Colors.black,
           onTap: _onItemTapped,
         ),
       ),
