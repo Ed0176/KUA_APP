@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
           ),
           Container(
             margin: const EdgeInsets.symmetric(vertical: 20.0),
-            height: 200.0,
+            height: 100.0,
             child: ListView(
               // This next line does the trick.
               scrollDirection: Axis.horizontal,
