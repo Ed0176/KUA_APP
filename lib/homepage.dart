@@ -216,13 +216,13 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.account_circle,
-                color: Colors.orange,
+                color: Colors.black,
               ),
               label: 'Profile',
             ),
           ],
           currentIndex: _selectedIndex,
-          selectedItemColor: Colors.black,
+          selectedItemColor: Colors.orange,
           onTap: _onItemTapped,
         ),
       ),
