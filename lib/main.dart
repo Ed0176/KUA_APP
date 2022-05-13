@@ -6,7 +6,7 @@ import 'homepage.dart';
 import 'list.dart';
 
 void main() {
-  runApp(List());
+  runApp(HomePage());
 }
 
 class Login extends StatefulWidget {
