@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'dart:math';
 import 'homepage.dart';
+import 'list.dart';
 
 void main() {
-  runApp(HomePage());
+  runApp(List());
 }
 
 class Login extends StatefulWidget {

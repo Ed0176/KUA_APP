@@ -67,25 +67,35 @@ class _HomePageState extends State<HomePage> {
               // This next line does the trick.
               scrollDirection: Axis.horizontal,
               children: <Widget>[
-                Container(width: 150.0, color: Colors.grey, child: GestureDetector(onTap: () {})),
+                Card(
+                  color: Colors.grey,
+                  shadowColor: Colors.red,
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
+                ),
                 SizedBox(
                   width: 10.0,
                 ),
-                Container(
-                  width: 160.0,
+                Card(
+                  //width: 160.0,
                   color: Colors.grey,
+
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
                 ),
                 SizedBox(
                   width: 10.0,
                 ),
-                Container(
-                  width: 160.0,
+                Card(
+                  //width: 160.0,
                   color: Colors.grey,
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
                 ),
-                Container(width: 160.0, color: Colors.grey, child: GestureDetector(onTap: () {})),
-                Container(
-                  width: 160.0,
+                Card(
                   color: Colors.grey,
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
+                ),
+                Card(
+                  color: Colors.grey,
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
                 ),
               ],
             ),
@@ -200,6 +210,10 @@ class _HomePageState extends State<HomePage> {
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
+              activeIcon: Icon(
+                Icons.home,
+                color: Colors.orange,
+              ),
               icon: Icon(
                 Icons.home,
                 color: Colors.black,
@@ -207,6 +221,10 @@ class _HomePageState extends State<HomePage> {
               label: 'Home',
             ),
             BottomNavigationBarItem(
+              activeIcon: Icon(
+                Icons.search,
+                color: Colors.orange,
+              ),
               icon: Icon(
                 Icons.search,
                 color: Colors.black,
@@ -214,6 +232,10 @@ class _HomePageState extends State<HomePage> {
               label: 'Search',
             ),
             BottomNavigationBarItem(
+              activeIcon: Icon(
+                Icons.account_circle,
+                color: Colors.orange,
+              ),
               icon: Icon(
                 Icons.account_circle,
                 color: Colors.black,
