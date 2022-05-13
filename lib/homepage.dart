@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                 Card(
                   color: Colors.grey,
                   shadowColor: Colors.red,
-                  child: Image.asset('images/diamond.jpg', height: 100.0, width: 150),
+                  child: Image.asset('images/diamond.jpg', height: 100.0, width: 140),
                 ),
                 SizedBox(
                   width: 10.0,
