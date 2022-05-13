@@ -124,6 +124,7 @@ class _HomePageState extends State<HomePage> {
               // This next line does the trick.
               scrollDirection: Axis.horizontal,
               children: <Widget>[
+                Course_Card(),
                 Container(
                   width: 160.0,
                   color: Colors.grey,
@@ -249,5 +250,13 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
     );
+
+    Card Course_Card() {
+      Card(
+        //width: 160.0,
+        color: Colors.grey,
+        child: Image.asset('images/diamond.jpg', height: 100.0, width: 133),
+      );
+    }
   }
 }
