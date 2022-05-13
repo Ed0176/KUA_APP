@@ -34,7 +34,7 @@ class _TryState extends State<Try> {
               ClipRRect(
                 borderRadius: BorderRadius.all(Radius.circular(20.0)),
                 child: Image.asset(
-                  bannerImage[x],
+                  'images/flower.jpg',
                   fit: BoxFit.cover,
                 ),
               ),
