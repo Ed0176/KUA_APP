@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                   //width: 160.0,
                   color: Colors.grey,
 
-                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 133),
                 ),
                 SizedBox(
                   width: 10.0,
@@ -87,15 +87,15 @@ class _HomePageState extends State<HomePage> {
                 Card(
                   //width: 160.0,
                   color: Colors.grey,
-                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 133),
                 ),
                 Card(
                   color: Colors.grey,
-                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 133),
                 ),
                 Card(
                   color: Colors.grey,
-                  child: Image.asset('images/flower.jpg', height: 100.0, width: 160),
+                  child: Image.asset('images/flower.jpg', height: 100.0, width: 133),
                 ),
               ],
             ),
